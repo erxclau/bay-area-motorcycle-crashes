@@ -17,7 +17,7 @@
     "postinstall": "sink fetch",
     "dev": "vite",
     "prebuild": "mkdir -p img",
-    "build": "node build.mjs",
+    "build": "node --max_old_space_size=16384 build.mjs",
     "postbuild": "if [ \"$(ls -A img/)\" ]; then ((cd dist; mkdir -p img) && mv img/* dist/img/); fi",
     "preview": "vite preview"
   },

@@ -1,4 +1,5 @@
-import { geoMercator, geoPath, select } from "d3";
+import { select } from "d3-selection";
+import { geoMercator, geoPath } from "d3-geo";
 
 const drawMap = (map, data) => {
   const figure = select("figure");
