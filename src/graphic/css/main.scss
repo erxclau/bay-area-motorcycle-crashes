@@ -3,11 +3,11 @@
 
 :root {
   --hed-font: var(--sans);
-  --body-font: var(--serif);
+  --body-font: var(--sans);
 }
 
 .homepage {
-  --hed-font: var(--serif);
+  --hed-font: var(--sans);
   --body-font: var(--sans);
 }
 
@@ -36,6 +36,7 @@ figure {
 
   &__byline, &__source, &__note {
     font-size: 0.8rem;
+    color: rgb(136, 136, 136);
   }
 
   &__caption {

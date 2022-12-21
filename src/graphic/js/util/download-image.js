@@ -31,7 +31,9 @@ const downloadImage = async (message) => {
       a.remove();
     };
 
-    img.src = `data:image/svg+xml;base64,${window.btoa(svgString)}`;
+    img.src = `data:image/svg+xml;base64,${window.btoa(
+      unescape(encodeURIComponent(svgString))
+    )}`;
   }
 };
 

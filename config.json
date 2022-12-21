@@ -1,12 +1,24 @@
 {
   "entries": {
-    "index.html": {
-      "hed": "Headline",
-      "dek": "This is a short description",
-      "byline": "Firstname Lastname",
-      "source": "This is the source",
-      "note": "This is a note",
-      "illustrator_output_filename": "output.html"
+    "sacramento.html": {
+      "hed": "Sacramento had 528 motorcycle accidents and 37 deaths in 2021",
+      "byline": "Eric Lau",
+      "source": "UC Berkeley Safe Transportation Research and Education Center"
+    },
+    "san-francisco.html": {
+      "hed": "San Francisco had 397 motorcycle accidents and 11 deaths in 2021",
+      "byline": "Eric Lau",
+      "source": "UC Berkeley Safe Transportation Research and Education Center"
+    },
+    "san-mateo.html": {
+      "hed": "San Mateo had 138 motorcycle accidents and 5 deaths in 2021",
+      "byline": "Eric Lau",
+      "source": "UC Berkeley Safe Transportation Research and Education Center"
+    },
+    "marin.html": {
+      "hed": "Marin had 51 motorcycle accidents and 2 deaths in 2021",
+      "byline": "Eric Lau",
+      "source": "UC Berkeley Safe Transportation Research and Education Center"
     }
   },
   "fetch": [

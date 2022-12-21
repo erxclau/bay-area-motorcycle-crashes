@@ -27,13 +27,13 @@
     {%- if config.entries[filename].note %}
     <div class="figure__note">Note: {{config.entries[filename].note}}</div>
     {%- endif %}
-    {%- if config.entries[filename].source %}
-    <div class="figure__source">Source: {{config.entries[filename].source}}</div>
-    {%- endif %}
     {%- if config.entries[filename].byline %}
-    <div class="figure__byline">
-      Graphic by {{config.entries[filename].byline}} / The Michigan Daily
-    </div>
+    <span class="figure__byline">
+      Map: {{config.entries[filename].byline}} •
+    </span>
+    {%- endif %}
+    {%- if config.entries[filename].source %}
+    <span class="figure__source">Source: {{config.entries[filename].source}}</span>
     {%- endif %}
 
     {%- block scripts %}
