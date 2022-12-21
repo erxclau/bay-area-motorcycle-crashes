@@ -21,34 +21,9 @@
       "source": "UC Berkeley Safe Transportation Research and Education Center"
     }
   },
-  "fetch": [
-    {
-      "type": "doc",
-      "id": "",
-      "output": "",
-      "auth": "~/.daily-google-services.json"
-    },
-    {
-      "type": "sheet",
-      "id": "",
-      "sheetId": "0",
-      "output": "",
-      "auth": "~/.daily-google-services.json"
-    },
-    {
-      "type": "json",
-      "id": "",
-      "output": "",
-      "auth": "~/.daily-google-services.json"
-    }
-  ],
+  "fetch": [],
   "deployment": {
-    "url": "https://michigandaily.github.io/",
-    "region": "us-east-2",
-    "distribution": "",
-    "bucket": "",
-    "key": "",
-    "build": "./dist",
-    "profile": "sink"
+    "url": "https://erxclau.github.io/bay-area-motorcycle-crashes",
+    "build": "./dist"
   }
 }
