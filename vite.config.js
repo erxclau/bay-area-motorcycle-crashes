@@ -14,7 +14,7 @@ const graphics = Object.assign(
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/bay-area-motorcycle-crashes/",
   plugins: [nunjucks(), dsv({ include: ["**.csv", "**.tsv", "**.dsv"] })],
   root: resolve(__dirname, "src"),
   build: {
