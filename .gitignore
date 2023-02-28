@@ -5,7 +5,6 @@ img/
 *.png
 *.svg
 *.ai
-*.csv
 auth.json
 .daily-google-services.json
 *.deb
