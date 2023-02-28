@@ -8,7 +8,6 @@ img/
 *.csv
 auth.json
 .daily-google-services.json
-src/graphic/data
 *.deb
 
 # Logs
